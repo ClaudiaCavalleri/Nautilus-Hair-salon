@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/andrea-donato-HXiTTlUxpJk-unsplash.jpg) no-repeat center left;
+  background-size: cover;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.text-item {
+  margin-left: 20px;
+  padding: 30px;
+
+  color: white; 
+
+  animation: fade-in-right 2s linear 0s 1 normal none;
+}
+@keyframes fade-in-right {
+    
+  0% {
+    transform:translateX(150px);
+    opacity:0;
+  }
+  100% {
+    transform:translateX(0);
+    opacity:1;
+  }
+}
+
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 100px;
+}
+
+q {
+  font-family: 'Parisienne', cursive;
+}
+
+ul {
+  list-style: none;
+}
+
+.orari-ricevimento,
+.contacts {
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.social-container {
+  padding: 30px 0;
+}
+
