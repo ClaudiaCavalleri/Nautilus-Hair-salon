@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <Navbar />
-        <main>
-          <div className='text-item'>
+        <main className='font-sans'>
+          <div className='w-300 md:w-600 xl:w-900 text-item'>
             <Hero />
-            <address>via J. Verne, Ventimila leghe sotto i mari, 0</address>
+            
             <div className='orari-ricevimento'>
               <h3>Riceviamo su appuntamento:</h3>
               <ul>
