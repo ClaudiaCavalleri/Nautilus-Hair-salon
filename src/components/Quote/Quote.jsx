@@ -4,7 +4,7 @@ export default function Quote ()  {
     return(
         <>
             <div className='text-4xl'>
-                <q>I tuoi capelli sono la corona che non togli mai.</q>
+                <q>Where others have failed, I will not fail.</q>
             </div>
         </>
     )
